@@ -5,4 +5,4 @@ if(v>0):
 	elif(v%2!=0):
 		print("Odd")
 else:
-	print("Invalid")
+	print("invalid")
