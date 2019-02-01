@@ -1,0 +1,9 @@
+v=int(input())
+k=int(input())
+m=int(input())
+if((v>k)and(v>m)):
+	print(v)
+elif(k>m):
+	print(k)
+else:
+	print(m)
