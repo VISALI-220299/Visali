@@ -1,3 +1,3 @@
-v=int(input())
 k=int(input())
-print (v ** k)
+v=int(input())
+print (k ** v)
