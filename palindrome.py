@@ -1,0 +1,11 @@
+v=int(input())
+t=v
+k=0
+while(v>0):
+	n=v%10
+	k=k*10+n
+	v=v//10
+if(t==k):
+	print("yes")
+else:
+	print("no")
