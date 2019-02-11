@@ -1,5 +1,5 @@
 s=int(input()) 
 e=int(input()) 
-for v in range(s,e+1):
-	if((v%2)==0): 
-		print(v,e=" ")
+for i in range(s+1,e+1):
+	if((i%2)==0): 
+		print(i)
