@@ -1,8 +1,8 @@
-a=int(input("\nEnter the number:"))
-b=input("\nEnter the string:")
-c=list(b)
-d=0
-while a>0:
-    print(c[d],end="")
-    d=d+1
-    a=a-1
+k=int(input("\nEnter the number:"))
+v=input("\nEnter the string:")
+m=list(v)
+s=0
+while k>0:
+    print(m[s],end="")
+    s=s+1
+    k=k-1
