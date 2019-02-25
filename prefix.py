@@ -1,5 +1,5 @@
-k=int(input("\nEnter the number:"))
-v=input("\nEnter the string:")
+k=int(input())
+v=input()
 m=list(v)
 s=0
 while k>0:
