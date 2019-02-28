@@ -1,2 +1,18 @@
-k=int(input())
-print("0" if k>0 and (k & (k-1))==0 else "1")
+import math
+def main():
+	n=int(input())
+	while(n!=0):
+		l=math.sqrt(n)
+		if l==int(l):
+			print(int(l))
+			break
+		else:
+			n=n-1
+	if n==0:
+		print('no')
+    
+try:
+  main()
+except:
+  print('invalid')
+  p
