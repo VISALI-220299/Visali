@@ -1,6 +1,6 @@
-Y=3
-n=int(input())
-if(3<=n<=1000):
-    print(n)
+k=3
+v=int(input())
+if(3<=v<=1000):
+    print(v)
 else:
     print("invalid")
