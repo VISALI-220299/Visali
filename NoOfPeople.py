@@ -1,14 +1,14 @@
 import math
 def main():
-	n=int(input())
-	while(n!=0):
-		l=math.sqrt(n)
+	k=int(input())
+	while(v!=0):
+		l=math.sqrt(k)
 		if l==int(l):
 			print(int(l))
 			break
 		else:
-			n=n-1
-	if n==0:
+			k=k-1
+	if k==0:
 		print('no')
     
 try:
