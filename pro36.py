@@ -1,6 +1,6 @@
 import sys,string
 num = int(input())
-M = [ int(x) for x in input().split()]
+M = [ int(v) for v in input().split()]
 num = len(M)
 cnt = 0
 for i in range(0,num-2) :
