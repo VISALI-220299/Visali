@@ -1,21 +1,21 @@
 num,k = map(int,input().split())
-v = list(map(int,input().split()))
+a = list(map(int,input().split()))
 b,c = 0,[]
-for i in range(0,len(v)):
+for i in range(0,len(a)):
   t = i
-  for p in range(0,len(v)):
+  for p in range(0,len(a)):
     for l in range(0,k):
       if l == k-1:
         try:
-          b += v[p+i]
+          b += a[p+i]
         except IndexError:
             t = t-1
-            b +=v[t]
+            b +=a[t]
       else:
-        b += v[i]
+        b += a[i]
     c.append(b)
     b = 0
-for i in range(0,len(v),k):
+for i in range(0,len(a),k):
   b = sum(a[i:i+k])
   c.append(b)
 print(*sorted(set(c)))
